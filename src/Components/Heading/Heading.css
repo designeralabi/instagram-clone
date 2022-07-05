@@ -1,0 +1,49 @@
+.heading_container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+}
+
+#search {
+  background-color: #efefef;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.button_wrapper {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#login {
+  background-color: #1895f7;
+  color: #ffffff;
+}
+
+#signup {
+  color: #1895f7;
+}

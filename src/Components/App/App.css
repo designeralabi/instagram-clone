@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.component_wrapper {
+  padding: 25px 30px;
+  max-width: 90%;
+  margin: 100px auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+  .component_wrapper {
+    padding: 25px 0px;
+    max-width: 95%;
+  }
+}
